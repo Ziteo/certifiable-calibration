@@ -7,7 +7,6 @@ setuptools.setup(
     author='James Guzman',
     author_email='jamesmguzman94@gmail.com',
     license='MIT',
-    # packages=['python', 'python.pose_simulator', 'python.extrinsic_calibration', 'python.extrinsic_calibration.utility', 'python.extrinsic_calibration.solver', 'python.extrinsic_calibration.andreff', 'python.extrinsic_calibration.andreff.liegroups.numpy', 'python.extrinsic_calibration.andreff.liegroups.torch'],
     packages=setuptools.find_packages(),
     install_requires=['future', 'numpy', 'liegroups', 'scipy', 'matplotlib', 'cvxpy']
 )
