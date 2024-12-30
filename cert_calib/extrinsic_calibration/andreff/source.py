@@ -1,8 +1,8 @@
 import time
 import numpy as np
 import math
-from utility.utils import load_data_1, inertial_to_relative
-from solver.schur_solver import schur_solver
+from ..utility.utils import load_data_1, inertial_to_relative
+from ..solver.schur_solver import schur_solver
 
 class solver():
     def __init__(self):

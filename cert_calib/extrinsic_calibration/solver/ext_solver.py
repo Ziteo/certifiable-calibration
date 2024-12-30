@@ -1,11 +1,15 @@
 import time
 
 import numpy as np
-import solver.constraint_gen as cg
+# import solver.constraint_gen as cg
+from . import constraint_gen as cg
+# import constraint_gen as cg
 import cvxpy as cp
-from utility.utils import load_data_1, inertial_to_relative
+from ..utility.utils import load_data_1, inertial_to_relative
+# from utility.utils import load_data_1, inertial_to_relative
 
-from andreff.source import solver as AndreffSolver
+from ..andreff.source import solver as AndreffSolver
+# from andreff.source import solver as AndreffSolver
 
 class solver():
     def __init__(self):

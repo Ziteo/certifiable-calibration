@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name='certifiable-calib',
+    name='certifiable_calib',
     version='0.1.0',
     description='Certifiably globally optimal extrinsic calibration for sensors providing egomotion estimates.',
     author='James Guzman',
